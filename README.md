@@ -8,9 +8,13 @@ Este projeto consiste no desenvolvimento de um site responsivo para uma bibliote
 
 ## Funcionalidades Principais
 📖 Catálogo de Livros: Pesquisa dinâmica e exibição organizada dos livros disponíveis.
+
 🎥 Seção Mídia: Integração de vídeos e áudios relevantes sobre a biblioteca.
+
 🗺️ Localização Interativa: Mapa do Google Maps com a localização da biblioteca.
+
 📱 Marketing da Aplicação Móvel: Chamada à ação para download da aplicação oficial.
+
 🔗 Navegação Intuitiva: Barra de navegação com troca de idiomas e links para redes sociais.
 
 ## Tecnologias Utilizadas
