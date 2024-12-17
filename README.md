@@ -26,7 +26,9 @@ Este projeto consiste no desenvolvimento de um site responsivo para uma bibliote
 
 ## Como Executar o Projeto 🚀
 - 1º Clonar o Repositório:
+- 
     git clone https://github.com/JulianaGSoares/nome-do-repositorio.git
+  
     cd nome-do-repositorio
 
 - 2º Abrir no Navegador:
