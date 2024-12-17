@@ -1,0 +1,125 @@
+.navbar-right {
+    margin-right: 25px;
+}
+.navbar-right img {
+   height: 30px;
+   width: 30px;
+   margin-left: 10px;
+}
+.navbar-nav > li > a, .navbar-brand {
+   line-height: 50px; 
+   height: 50px;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.navbar {
+   height: 50px;
+} 
+
+.intro-block{
+    padding: 100px 15px 60px;
+    color: #333;
+}
+
+.text-muted{
+    color: #ed7337;
+    font-weight: 100;
+}
+
+.tpad{
+    padding-top: 20px;
+}
+
+.marketing{
+    background-color: #e9e6df;
+}
+
+.imagem {
+    padding-top: 25px;
+}
+
+hr{
+    border-top: 1px solid #c9c9c9;
+    margin-top: 20px;
+}
+
+.info{
+    background: #ffa753 url(../imagens/SKYLINE.PNG) repeat-x bottom;
+    padding: 80px 0;
+}
+
+.info small{
+    color: #eeefe9;
+}
+
+.info a{
+    color: #fff;
+}
+
+.info a:hover{
+    color: #333;
+}
+
+.tab-pane{
+    padding: 40px 10px 0 10px;
+}
+
+.ftr{
+    background: url(../imagens/shattered.png) repeat;
+    padding: 10px 0 10px 0;
+}
+
+.ftr address, .ftr a, .ftr p{
+    color: #333;
+}
+
+.ft_space{
+    padding: 0 10px;
+}
+
+.blog h1 a { 
+    color: #4b8575; 
+}
+
+.blog p a { 
+    color: #ed7337; 
+}
+
+.sidebar{
+    background-color: #e9e6df;
+}
+
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #eeefe9;
+}
+
+h1, h2{
+    font-family: 'Abel', sans-serif;
+}
+
+b, strong{
+    font-weight: 400;
+}
+
+.padded{
+    padding: 100px 15px;
+}
+
+.bpad{ 
+    margin-bottom: 30px; 
+}
+
+.map{
+    height: 350px;
+    width: -100%;
+}
+
+@media(min-width: 768px){
+    .map {
+        height: 500px;
+    }
+}

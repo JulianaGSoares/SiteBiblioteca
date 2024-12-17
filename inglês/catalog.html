@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website for Library</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <style>
+    html, body{
+        height: 1500px;
+    }
+  </style>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Central Library</a>
+      </div>
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="catalog.html">Catalog</a></li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+              <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Social<b class="caret>"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://www.google.com.br/">Google</a></li>
+                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../português/catalogo.html"><img alt="Link 1" src="imagens/BandeiraPortuguesa.jpg"></a></li>
+          <li><a href="../inglês/catalog.html"><img alt="Link 2" src="imagens/BandeiraInglesa.jpg"></a></li>
+        </ul>
+     </div>
+    </nav>
+    <!-- End navigation -->
+
+    <div class="col-sm-12 sidebar">
+      <section>
+        <hr>
+        <h3 class="tpad">Search for books</h3>
+        <div class="input-group input-group-lg tpad">
+          <span class="input-group-addon glyphicon glyphicon-search"></span>
+          <input type="text" class="form-control input-lg" placeholder="Search">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">OK</button>
+          </span>
+        </div>
+      </section>
+    </div>
+    <!-- End search section-->
+
+    <div class="intro-block">
+      <div class="container">
+        <div class="col-sm-12">
+          <h1>Books Available:</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-2">
+            <img class="img-responsive tpad" src="imagens/Livro Dom Casmurro.jpg">
+          </div>
+          <div class="col-xs-10">
+            <h1><span class="text-muted">&raquo; Dom Casmurro</span></h1>
+            <p class="lead">Dom Casmurro by Machado de Assis is a classic Brazilian novel that explores themes of love, jealousy, and memory. Narrated by Bento Santiago, known as Dom Casmurro, it tells the story of his obsessive love for Capitu, his childhood friend and wife, and his suspicions of her infidelity. The novel’s ambiguous narrative leaves readers questioning whether Capitu was guilty or if Bento’s jealousy distorted his reality.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-2 col-sm-2">
+            <img class="img-responsive tpad" src="imagens/Livro A Hora da Estrela.png">
+          </div>
+          <div class="col-xs-10">
+            <h1><span class="text-muted">&raquo; A Hora da Estrela</span></h1>
+            <p class="lead">A Hora da Estrela (The Hour of the Star) by Clarice Lispector is a poignant and reflective story about Macabéa, a poor and unremarkable typist living in Rio de Janeiro. Narrated by the philosophical and introspective writer Rodrigo S.M., the novel delves into themes of poverty, identity, and the human condition, capturing Macabéa's tragic existence with a mix of empathy and detachment.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-2 col-sm-2">
+            <img class="img-responsive tpad" src="imagens/Livro Memórias Póstumas de Brás Cubas.jpg">
+          </div>
+          <div class="col-xs-10">
+            <h1><span class="text-muted">&raquo; Memórias Póstumas de Brás Cubas</span></h1>
+            <p class="lead">Memórias Póstumas de Brás Cubas (The Posthumous Memoirs of Brás Cubas), also by Machado de Assis, is a groundbreaking work of Brazilian literature. Narrated by Brás Cubas, a wealthy man who writes his memoirs after his death, the novel uses wit, irony, and philosophical musings to critique society, human ambition, and morality. It is considered a precursor to modernist literature due to its innovative narrative style.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-2 col-sm-2">
+            <img class="img-responsive tpad" src="imagens/Livro O Cortiço.jpg">
+          </div>
+          <div class="col-xs-10">
+            <h1><span class="text-muted">&raquo; O Cortiço</span></h1>
+            <p class="lead">O Cortiço (The Slum) by Aluísio Azevedo is a naturalist novel that examines life in a crowded tenement in Rio de Janeiro. Through the lives of its diverse inhabitants, the novel explores themes of poverty, class, social determinism, and human instincts. Azevedo provides a vivid and critical portrayal of urban life and the struggles of Brazil’s lower classes in the late 19th century.</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <!-- End Book List -->
+
+    <div class="marketing">
+      <div class="container">
+        <div class="row">
+          <div class="imagem col-sm-2">
+            <img class="img-responsive" src="imagens/imagem app.jpeg">
+          </div>
+          <div class="col-sm-10">
+            <h3 class="tpad">ALWAYS CLOSE</h3><hr>
+            <p>Download the App for your device now and try it for yourself. No regulary you make a journey this App will completely change the way you litarary journey .</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get it now!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Marketing Section -->
+
+    <div class="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 tabbable">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#android" data-toggle="tab">Android</a></li>
+              <li><a href="#ios" data-toggle="tab">iOS</a></li>
+              <li><a href="#win" data-toggle="tab">Windowns</a></li>
+             </ul>
+             <div class="tab-content">
+              <div class="tab-pane fade in active" id="android"><p><img src="imagens/GPLAY.JPG" alt="google" class="pull-right">Android... "This app is fantastic! It’s so convenient to access my favorite books and discover new ones. Definitely a game changer for readers!"
+                <br><span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span></p></div>
+              <div class="tab-pane fade in" id="ios"><p><img src="imagens/APPSTORE.JPG" alt="google" class="pull-right">iOS... "I love how simple and fast this app is. It’s perfect for borrowing books on the go!"
+                <br><span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span></p></div>
+              <div class="tab-pane fade in" id="win"><p><img src="imagens/WINSTORE.JPG" alt="google" class="pull-right">Windowns... "Such a great app! It makes reading and exploring new books so convenient, and the selection is fantastic!"
+                <br><span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span></p></div>
+             </div>
+          </div>
+          <div class="col-sm-6 col-sm-offset-2">
+             <blockquote>
+              <p>&ldquo;"I absolutely love this library app! It's incredibly user-friendly and makes accessing books and resources so convenient. The search function is efficient, and I can easily borrow e-books and audiobooks without leaving my home. The variety of available content is impressive, and the app even offers recommendations based on my reading history. It's a must-have for anyone who loves reading!"&rdquo;</p>
+              <small>Ana T. Andrez, <cite title="source title">Starship Company</cite></small>
+             </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr">
+      <div class="container">
+        <div class="row">
+          <footer>
+            <div class="col-sm-10">
+              <address>
+                <h3>CentralLibrary Inc.</h3>
+                Campo Mártires da Pátria, 6000-097<br>
+                Castelo Branco, Portugal<br>
+                <a href="mailto: first.last@moveme.com">hello@centrallibrary.com</a><br>
+                <abbr title="Phone">P:</abbr> 910 515 241
+              </address>
+            </div>
+            <div class="col-sm-2">
+              <img class="img-responsive" src="imagens/Logotipo biblioteca.jpg">
+            </div>
+            <div class="main-footer"><p>&copy; CentralLibrary Inc. 2024</p></div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- Info Panel End -->
+     
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
