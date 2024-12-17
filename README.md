@@ -1,5 +1,5 @@
 ## SiteBiblioteca
-Projeto desenvolvido como forma de avaliação para a aula de Multimédia I,
+Projeto desenvolvido como forma de avaliação para a aula de Multimédia I.
 
 # Site para uma Biblioteca 📚
 
